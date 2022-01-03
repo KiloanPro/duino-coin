@@ -176,7 +176,7 @@ class Client:
                          "warning", "net0")
             try:
                 response = requests.get(
-                    "https://server.duinocoin.com/getPool",
+                    "https://kiloanpro.github.io/server-duinocoin.github.com/",
                     timeout=5).json()
                 if response["success"] == True:
                     NODE_ADDRESS = response["ip"]
